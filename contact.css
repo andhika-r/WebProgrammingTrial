@@ -7,19 +7,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
- .header{
-    background-color: rgb(224, 11, 11);
-    background-size: cover;
-}
-.header .container{
-    padding: 20px;
-}
 b:link {
     color: black;
     background-color: transparent;
     text-decoration: none;
-  }
-
+}
 .container .card-deck {
     margin-top: 5px;
 }
