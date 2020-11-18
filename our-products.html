@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-  <title>Our Products</title>
+  <title>Our Products</title> <!-- Andhika -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -10,18 +10,56 @@
   <script src="https://semengresik.sig.id/frontend-assets/js/jquery-3.5.1.min.js"></script>
   <script src="https://semengresik.sig.id/frontend-assets/js/twitter/jquery.tweet.min.js"></script>
   <script src="https://semengresik.sig.id/frontend-assets/js/main.js"></script>
-  <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/plugins.min.css">
-  <link rel="icon" type="image/png" href="https://semengresik.sig.id/frontend-assets/images/favicon.gif">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300,300i,400,400i,600,600i,700,800" rel="stylesheet">
   <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/style.css">
-  <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/homepages/index-agency5.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/plugins.min.css">
+  <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/settings.css">
+  <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/layers.css">
+  <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/navigation.css">
+  <link rel="icon" type="image/png" href="https://semengresik.sig.id/frontend-assets/images/favicon.gif">
   <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/CustomFrontend.css">
+  <link rel="stylesheet" href="https://semengresik.sig.id/frontend-assets/css/homepages/index-agency5.css">
+  <script src="https://semengresik.sig.id/frontend-assets/js/modernizr.js"></script>
+  <style>
+    fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#produk" ).selectmenu();
+ 
+    $( "#ukuran" ).selectmenu();
+ 
+    $( "#number" )
+      .selectmenu()
+      .selectmenu( "menuWidget" )
+        .addClass( "overflow" );
+ 
+    $( "#salutation" ).selectmenu();
+    $( "#datepicker" ).datepicker({
+      minDate: '0'
+    });
+  } );
+  
+  </script>
   <style>
     .nav-item {
       margin-top: 20px;
   }
   </style>
 </head>
-<body style="background-color: white;"> 
+<body style="background-color: white;"> <!-- diadaptasi dari https://semengresik.sig.id/rsqcujepoeqasffg.html -->
   <div id="wrapper">
     <div class="container">
       <header class ="header header2 transparent custom sticky-header fixed" style="margin-top: -1px; margin-left: -1px;">
@@ -54,35 +92,208 @@
         </nav>
       </header>
     </div>
+
+    <div class="row container-space">
+      <div class="container container-space">
+          <h2 style="margin-top: 100px;padding-top: 50px; color: black; font-weight: 800 !important;font-size: 25px;text-align: center;"><span class="red-line-bf-txt"></span> PRODUK KAMI <span class="red-line-bf-txt"></span></h2>
+      </div>
+      <p></p>
+      <div class="col-md-8 col-sm-12 col-xs-12"> <!-- diambil dari https://www.99.co/blog/indonesia/harga-semen-gresik/ -->
+
+          <div class="col-md-8 col-sm-12 col-xs-12">
+              <p class="lead smaller" style="padding-top:30px;color: black; font-size: 20px; font-weight: 700 !important; padding-left: 30px;">1.  Ordinary Portland Cement (OPC)
+              </p>
+              <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+                  Jenis semen ini berfungsi ganda untuk konstruksi umum dan konstruksi yang membutuhkan ketahanan sulfat sedang.
+              </p>
+              <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+                  Sifat dari jenis semen ini adalah cepat kering, semakin kuat, dan lebih kedap.
+              </p>
+              <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+                  Ini Setara dengan semen portland type II.
+                </p>
+                <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+                  Jenis semen ini diperuntukan untuk pembangunan gedung, jembatan, jalan raya, rumah pemukiman, irigasi, bendungan, pelabuhan, power plant, dan bangunan di tepi pantai.
+              </p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <img src="images\semenopc.png" class="rounded" style="max-width: 70%; padding-left: 30px; align-items: center; padding-top: 50px ; " alt="Semen OPC">
+          </div>
+
+          <div class="col-md-8 col-sm-12 col-xs-12">
+            <p class="lead smaller" style="padding-top:30px;color: black; font-size: 20px; font-weight: 700 !important; padding-left: 30px;">2. Portland Pozzoland Cement (PPC)
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Semen jenis ini hidraulis yang dibuat dengan menggiling terak, gypsum dan bahan pozzolan.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Biasanya, digunakan untuk bangunan umum dan bangunan yang memerlukan ketahanan sulfat dan panas hidrasi sedang.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Misalnya, jembatan, jalan raya, perumahan, dermaga, beton massa, bendungan, bangunan irigasi dan fondasi pelat penuh.
+              </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Sifatnya lebih mudah dikerjakan dan suhu beton lebih rendah sehingga tidak mudah retak.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Kemudian, lebih tahan terhadap sulfat, kedap air serta permukaan acian lebih halus.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+          <img src="images\semenppc.png" class="rounded" style="max-width: 70%; padding-left: 30px; align-items: center; padding-top: 50px ; " alt="Semen PPC">
+          </div>
+
+          <div class="col-md-8 col-sm-12 col-xs-12">
+            <p class="lead smaller" style="padding-top:30px;color: black; font-size: 20px; font-weight: 700 !important; padding-left: 30px;">3. Portland Composite Cement (PCC)
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Serupa OPC, jenis semen ini umum digunakan untuk pembangunan.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Sifatnya lebih mudah dikerjakan, suhu beton lebih rendah sehingga tidak mudah retak, lebih tahan terhadap sulfat.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Kemudian, lebih kedap air dan juga permukaan acian lebih halus.
+              </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Jenis semen ini biasa diperuntukan untuk pembangunan gedung, jembatan, jalan raya, dan rumah pemukiman.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Lalu, irigasi, bendungan, pelabuhan, power plant, dan bangunan di tepi pantai.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Sementara itu, elemen bangunan seperti genteng, hollow brick, batako, paving block, roster, serta pabrikan berbasis semen.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+          <img src="images\semenpcc.png" class="rounded" style="max-width: 70%; padding-left: 30px; align-items: center; padding-top: 50px ; " alt="Semen PCC">
+          </div>
+
+          <div class="col-md-8 col-sm-12 col-xs-12">
+            <p class="lead smaller" style="padding-top:30px;color: black; font-size: 20px; font-weight: 700 !important; padding-left: 30px;">4. Super White Cement
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Jenis semen ini biasa digunakan untuk finishing dan aplikasi dekoratif maupun arsitektural pada bangunan umum.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Sifat dari jenis semen ini adalah ketahanan sulfat tinggi, panas hidrasi rendah.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Jenis semen ini setara dengan portland type V.
+            </p>
+            <p style="text-align: justify; text-align: justify !important;padding-left: 30px;" class="std-font-sz-content">
+              Semen ini biasa diaplikasikan pada konstruksi dengan persyaratan ketahanan sulfat tinggi dan panas hidrasi rendah, seperti jembatan terpapar air laut, dermaga, power plant, dan fasilitas pengolahan limbah.
+            </p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <img src="images\semenputih.png" class="rounded" style="max-width: 70%; padding-left: 30px; align-items: center; padding-top: 50px ; " alt="Semen Putih">
+        </div>
+
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="card">
+          <div class="card-header" style="background-color: white;">
+            <h2 style="padding-top: 20px; color: black; font-weight: 800 !important;font-size: 25px;text-align: center;">FORM PEMBELIAN</h2>
+          </div>
+          <div class="card-body">
+            <form action="#">
+ 
+              <fieldset> <!-- diadaptasi dari https://jqueryui.com/selectmenu/ -->
+                <label for="produk">Pilih Produk</label>
+                <select name="produk" id="produk">
+                  <option selected="selected" >Ordinary Portland Cement (OPC)</option>
+                  <option>Portland Pozzoland Cement (PPC)</option>
+                  <option>Portland Composite Cement (PCC)</option>
+                  <option>Super White Cement</option>
+                </select>
+             
+                <label for="ukuran">Pilih Ukuran</label>
+                <select name="ukuran" id="ukuran">
+                  <optgroup label="OPC, PPC, PCC">
+                    <option selected="selected">40kg</option>
+                    <option>50kg</option>
+                  </optgroup>
+                  <optgroup label="Super White Cement">
+                    <option>40kg</option>
+                  </optgroup>
+                </select>
+             
+                <label for="number">Pilih Jumlah Pembelian (sak)</label>
+                <select name="number" id="number">
+                  <option selected="selected">1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                </select>
+             
+                <label for="datepicker">Pilih Tanggal Pengiriman</label> <!-- diadaptasi dari https://jqueryui.com/datepicker/ -->
+                <input type="text" id="datepicker">
+              </fieldset>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
+
 <footer style="background-color: #E6213A;">
-  <div class="row">
-      <div class="col-4" style="padding: 30px ; align-items: center; padding-left: 80px;padding-bottom:20px ;">
-          <img src="images\logo sg.png" alt="" width="120%">
-      </div>
-      <div class="col-4" style="padding: 20px ; align-items: center;">
-      </div>
-      <div class="col-4" style="padding: 40px ; align-items: center; padding-bottom:20px ;">
-          <label class=" text-white " style="font-size: 20px;">Ikuti Kami:</label>
-          <div class="social-icons ">
-              <a href="https://www.instagram.com/semengresikofficial/" target="_blank"> <img src="images\instagram.png" alt="" width="15%" style="padding-right:20px ;"></a>
-              <a href="https://www.youtube.com/channel/UCSmd3Qg0K_aHaK5Iu75q-1A" target="_blank"> <img src="images\youtube.png" alt="" width="15%" style="padding-right:20px ;"></a>
-              <a href="https://www.linkedin.com/company/pt-semen-gresik-persero-tbk-/" target="_blank"> <img src="images\linkedin.png" alt="" width="15%" style="padding-right:20px ;"></a>
-              <a href="https://id-id.facebook.com/pages/category/Interest/PT-Semen-Gresik-Persero-Tbk-133242416753168/" target="_blank"> <img src="images\facebook.png" alt="" width="15%" style="padding-right:20px ;"></a>
+  <div class="container  container-space content-responsive-footer">
+      <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12">
+              <img src="images\logo sg.png" class="responsive" alt="logo semen gresik at website semen gresi" style="width: 360px !important;">
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12" style="padding-top: 25px ;">
+              <div class="footer-right">
+                  <label class=" text-white" style="font-size: 20px;">Ikuti Kami:</label>
+                  <p></p>
+                  <div class="social-icons " style="padding-right: 30px ;">
+                      <a href="https://www.instagram.com/semengresikofficial/" target="_blank"> <img src="images\instagram.png" alt="" width="20%" style="padding-left:10px ; "></a>
+                      <a href="https://www.youtube.com/channel/UCSmd3Qg0K_aHaK5Iu75q-1A" target="_blank"> <img src="images\youtube.png" alt="" width="20%" style="padding-left:10px ;"></a>
+                      <a href="https://www.linkedin.com/company/pt-semen-gresik-persero-tbk-/" target="_blank"> <img src="images\linkedin.png" alt="" width="20%" style="padding-left:10px ;"></a>
+                      <a href="https://id-id.facebook.com/pages/category/Interest/PT-Semen-Gresik-Persero-Tbk-133242416753168/" target="_blank"> <img src="images\facebook.png" alt="" width="20%" style="padding-left:10px ;"></a>
+                  </div>
+                  <!-- End .social-icons -->
+              </div>
           </div>
       </div>
-  </div>
-  <div class="row">
-      <hr width="80%" style="color: black;">
-      <br>
-      <p></p>
-      <div class="col-12">
-          <p style="color: black; font-weight: 400 !important;font-size: 12px;text-align: center; padding-bottom:1px ; line-height: 2px;">&copy; 2020 Semen Gresik</p>
-          <p style="color: black; font-weight: 400 !important;font-size: 12px;text-align: center; padding-top:1px ; line-height: 2px;">Semen Gresik adalah merek milik PT Sinergi Informatika Semen Indonesia</p>
+      <div class="row">
+          <hr width="80%" style="color: black;">
+          <br>
           <p></p>
-          <p></p>
+          <div class="col-12">
+              <p style="color: black; font-weight: 400 !important;font-size: 12px;text-align: center; padding-bottom:1px ; line-height: 2px;">&copy; 2020 Semen Gresik</p>
+              <p style="color: black; font-weight: 400 !important;font-size: 12px;text-align: center; padding-bottom:1px ; padding-top:1px ; line-height: 2px;">Semen Gresik adalah merek milik</p>
+              <p style="color: black; font-weight: 400 !important;font-size: 12px;text-align: center; padding-top:1px ; line-height: 2px;">PT Sinergi Informatika Semen Indonesia</p>
+              <p></p>
+          </div>
       </div>
+      <!-- End .footer-right -->
   </div>
 </footer>
+<p></p>
+<p></p>
 </html>

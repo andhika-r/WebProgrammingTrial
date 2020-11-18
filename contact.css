@@ -2,36 +2,41 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: white;
+    background: linear-gradient( rgb(247, 245, 246), );
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.header{
-    width: 100%;
-    height: 100px;
-    background-color: bisque;
+ .header{
+    background-color: rgb(224, 11, 11);
     background-size: cover;
 }
-.header h1{
-    font-size: 80px;
-    margin-top: -20px;
-    text-align-last: center ;
+.header .container{
+    padding: 20px;
 }
-.header-info-box{
-    margin-top: 5%;
-    padding-top: 5px;
-    position: relative;
-    background-color: #f0ccd1;
+b:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
-}
 .container .card-deck {
-    margin-top: 10%;
-    
-
+    margin-top: 5px;
 }
 .container h4{
-    
     color: cadetblue;
     font-size: x-large;
+    font-weight: 800 !important;
+}
+.row .container-space{
+    padding: 5px;
+}
+.card-header{
+    font-stretch: normal;
+    background-color: rgb(87, 79, 79);
+    position: relative;
+}
+.card-body{
+    background-attachment: fixed;
+    background-color: silver;
 }
