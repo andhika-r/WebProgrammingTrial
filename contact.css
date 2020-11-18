@@ -1,4 +1,4 @@
-body{
+body{ /* Nopal */
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -7,28 +7,28 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-b:link {
+b:link { /* Nopal */
     color: black;
     background-color: transparent;
     text-decoration: none;
 }
-.container .card-deck {
+.container .card-deck { /* Nopal */
     margin-top: 5px;
 }
-.container h4{
+.container h4{ /* Nopal */
     color: cadetblue;
     font-size: x-large;
     font-weight: 800 !important;
 }
-.row .container-space{
+.row .container-space{ /* Nopal */
     padding: 5px;
 }
-.card-header{
+.card-header{ /* Nopal */
     font-stretch: normal;
     background-color: rgb(87, 79, 79);
     position: relative;
 }
-.card-body{
+.card-body{ /* Nopal */
     background-attachment: fixed;
     background-color: silver;
 }
