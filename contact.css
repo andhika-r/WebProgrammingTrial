@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(247,28,36), rgba(35,31,32), rgba(145,143,144));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    background-size: cover;
+}
+.header h1{
+    font-size: 80px;
+    margin-top: -20px;
+    text-align-last: center ;
+}
+.header-info-box{
+    margin-top: 5%;
+    padding-top: 5px;
+    position: relative;
+    background-color: #f0ccd1;
+
+}
+.container .card-deck {
+    margin-top: 10%;
+    
+
+}
+.container h4{
+    
+    color: cadetblue;
+    font-size: x-large;
